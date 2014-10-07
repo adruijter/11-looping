@@ -3,6 +3,10 @@ Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "11-looping", "11-looping\11-looping.csproj", "{DC9D0737-56FF-495C-9101-09542E0534D5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "do_while", "do_while\do_while.csproj", "{21CC4708-6817-4BA0-A06E-46B04E23EA39}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "rbwhitaker_tutorials", "..\rbwhitaker_tutorials\rbwhitaker_tutorials\rbwhitaker_tutorials.csproj", "{5BD4168A-7BEC-4918-BBD2-2D73A851F6D6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x86 = Debug|x86
@@ -13,6 +17,14 @@ Global
 		{DC9D0737-56FF-495C-9101-09542E0534D5}.Debug|x86.Build.0 = Debug|x86
 		{DC9D0737-56FF-495C-9101-09542E0534D5}.Release|x86.ActiveCfg = Release|x86
 		{DC9D0737-56FF-495C-9101-09542E0534D5}.Release|x86.Build.0 = Release|x86
+		{21CC4708-6817-4BA0-A06E-46B04E23EA39}.Debug|x86.ActiveCfg = Debug|x86
+		{21CC4708-6817-4BA0-A06E-46B04E23EA39}.Debug|x86.Build.0 = Debug|x86
+		{21CC4708-6817-4BA0-A06E-46B04E23EA39}.Release|x86.ActiveCfg = Release|x86
+		{21CC4708-6817-4BA0-A06E-46B04E23EA39}.Release|x86.Build.0 = Release|x86
+		{5BD4168A-7BEC-4918-BBD2-2D73A851F6D6}.Debug|x86.ActiveCfg = Debug|x86
+		{5BD4168A-7BEC-4918-BBD2-2D73A851F6D6}.Debug|x86.Build.0 = Debug|x86
+		{5BD4168A-7BEC-4918-BBD2-2D73A851F6D6}.Release|x86.ActiveCfg = Release|x86
+		{5BD4168A-7BEC-4918-BBD2-2D73A851F6D6}.Release|x86.Build.0 = Release|x86
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
