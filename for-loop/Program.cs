@@ -38,7 +38,34 @@ namespace for_loop
             {
                 int evenGetal = i * 2;
                 if (evenGetal <= 10)
+                {
+                    if (evenGetal != 6) 
+                    {
+                        Console.WriteLine("Dit is een even getal onder de tien {0}", evenGetal);
+                    }
+                    else
+                    {
+                        continue;
+                    }
+                }
+                else
+                    break;
+            }
+
+
+
+            Console.WriteLine("Dit is een voorbeeld van ander gebruik van continue in een loop");
+            Console.WriteLine("-----------------------------------------------------------\n");
+
+            for (ushort i = 0; i <= 10; i++)
+            {
+                int evenGetal = i * 2;
+                if (evenGetal <= 10)
+                {
+                    if (evenGetal == 6) 
+                    continue;
                     Console.WriteLine("Dit is een even getal onder de tien {0}", evenGetal);
+                }
                 else
                     break;
             }
