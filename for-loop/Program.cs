@@ -70,6 +70,30 @@ namespace for_loop
                     break;
             }
 
+
+            // Maak eenzelfde soort programma voor oneven getallen en zorg voor een continue
+            // bij 3 en break bij 9
+
+            Console.WriteLine("Dit zijn de oneven getallen tot en met 9");
+            Console.WriteLine("-----------------------------------------\n");
+
+            for (ushort j = 0; j <= 20; j++)
+            {
+                int odd = 2 * j + 1;
+
+                if (odd == 3) continue;
+
+                if (odd <= 9)
+                    Console.WriteLine("Dit is oneven getal: {0}", odd);
+                else
+                    break;
+            }
+
+
+
+
+            
+
             Console.ReadLine();
         }
     }
